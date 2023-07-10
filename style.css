@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Work Sans;
 }
 
 header {
@@ -22,7 +23,6 @@ header {
 .banner-title {
     color: #151414;
     text-align: right;
-    font-family: Work Sans;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
@@ -33,7 +33,6 @@ header {
 .banner-desc {
     color: #444343;
     text-align: right;
-    font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -51,7 +50,6 @@ header {
     height: 58px;
     color: #FFF;
     text-align: center;
-    font-family: Work Sans;
     font-size: 20px;
     font-weight: 600;
 
@@ -64,11 +62,12 @@ header {
 }
 
 .container {
-    background-image: url(./images/person.png);
+    background-image: url(./images/person.png), linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(232, 125, 11, 1) 0%, rgba(240, 240, 240, 1) 81%);
+    ;
     background-repeat: no-repeat;
     background-size: contain;
     height: 530px;
-    margin-top: 140px;
+    margin-top: 50px;
     margin-left: 300px;
     display: flex;
     align-items: center;
@@ -76,8 +75,7 @@ header {
 }
 
 .first-title {
-    color: var(--dark-01, #151414);
-    font-family: Work Sans;
+    color: #151414;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -86,8 +84,7 @@ header {
 }
 
 .first-desc {
-    color: var(--dark-02, #444343);
-    font-family: Work Sans;
+    color: #444343;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -97,8 +94,7 @@ header {
 }
 
 .first-ol {
-    color: var(--dark-02, #444343);
-    font-family: Work Sans;
+    color: #444343;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -107,3 +103,49 @@ header {
     margin: 13px;
 }
 
+.desc-section {
+    margin-top: 80px;
+}
+
+.second {
+    height: 140vh;
+}
+
+.icon-contain {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.second-title {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color:#151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.icon-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.icon-desc {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+}
