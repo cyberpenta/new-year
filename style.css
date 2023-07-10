@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("./images/banner/banner1.png");
+    height: 664px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner-contain {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.banner-title {
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.banner-desc {
+    color: #444343;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 494px;
+    margin-left: 922px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    width: 137px;
+    height: 58px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.first {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    background-image: url(./images/person.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 530px;
+    margin-top: 140px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+}
+
+.first-title {
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px;
+}
+
+.first-desc {
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 416px;
+    margin: 10px;
+}
+
+.first-ol {
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+    margin: 13px;
+}
+
